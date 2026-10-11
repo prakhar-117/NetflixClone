@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Netflix India landing page clone made with HTML and CSS."
+    />
+    <title>Netflix India - Watch TV Shows Online, Watch Movies Online</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- HERO -->
+    <header class="main" id="home">
+      <div class="box"></div>
+
+      <nav class="navbar">
+        <a href="#home" aria-label="Netflix home">
+          <img src="logo.svg" alt="Netflix" class="logo" />
+        </a>
+
+        <div class="nav-actions">
+          <select class="language" aria-label="Select language">
+            <option value="en">English</option>
+            <option value="hi">हिन्दी</option>
+          </select>
+
+          <a class="btn-red-sm" href="https://www.netflix.com/in/login">
+            Sign In
+          </a>
+        </div>
+      </nav>
+
+      <div class="hero">
+        <h1>More watching. Less<br />scrolling.</h1>
+
+        <p class="hero-price">Starts at ₹149. Cancel at any time.</p>
+
+        <p class="hero-description">
+          Ready to watch? Enter your email to create or restart your membership.
+        </p>
+
+        <form
+          class="hero-buttons"
+          action="https://www.netflix.com/in/"
+          method="get"
+        >
+          <input
+            type="email"
+            name="email"
+            placeholder="Email address"
+            aria-label="Email address"
+            autocomplete="email"
+            required
+          />
+
+          <button type="submit" class="btn-red">
+            Get Started <span aria-hidden="true">›</span>
+          </button>
+        </form>
+      </div>
+    </header>
+    <div class="curve-divider" aria-hidden="true"></div>
+
+    <!-- TRENDING NOW -->
+
+    <section class="trending" id="trending">
+      <div class="section-inner">
+        <h2>Trending Now</h2>
+
+        <div class="trending-carousel">
+          <div class="trending-row">
+            <article class="title-card">
+              <img
+                src="https://dnm.nflximg.net/api/v6/LSExTNdA1vCOYNZ8eHZ6J0eyIcQ/AAAABZudQoI_VgHXMx-1eJycdq_44th6tenJxCHxBubZu3J7j3JDU5LGrPCbdkrANp5mR28qmxXRXCIKHGiw6-MK-wZWUt6eDXkcDBc.jpg?r=746"
+                alt="Vishwanath and Sons"
+                loading="lazy"
+              />
+              <span class="rank">1</span>
+            </article>
+
+            <article class="title-card">
+              <img
+                src="https://dnm.nflximg.net/api/v6/LSExTNdA1vCOYNZ8eHZ6J0eyIcQ/AAAABfH0QYOg1jKchcFHcC2gU_Y_NaumMP0dHN1AnN6CsgITMZs1zSHlAHSuA2jep00kNP5ZPYgsjvHVPDxpDgA2kjJM0l9EBY2kuP8.jpg?r=8b4"
+                alt="Irumudi"
+                loading="lazy"
+              />
+              <span class="rank">2</span>
+            </article>
+
+            <article class="title-card">
+              <img
+                src="https://dnm.nflximg.net/api/v6/LSExTNdA1vCOYNZ8eHZ6J0eyIcQ/AAAABcsqAqcMA_hGzx1T6Y5aQppieN1jzJLK-OdbRqPkieP-Xj5zRkpghuk4Mvx9OUI9jkzuqqWP2ItPtQmyttZgZ4i-6ulFOpJ0W-s.jpg?r=81f"
+                alt="Modha Rathri"
+                loading="lazy"
+              />
+              <span class="rank">3</span>
+            </article>
+
+            <article class="title-card">
+              <img
+                src="https://dnm.nflximg.net/api/v6/LSExTNdA1vCOYNZ8eHZ6J0eyIcQ/AAAABcqNmmDnpPKqUJqmBsh-hklKVuH1WkDdjWws29mJw-LZK07txV2mPvWFMWvva90fWWBFqUBcwidZY6HW6NlDTTN8rXFMrqnDea0.jpg?r=72d"
+                alt="Baby Do Die Do"
+                loading="lazy"
+              />
+              <span class="rank">4</span>
+            </article>
+
+            <article class="title-card">
+              <img
+                src="https://dnm.nflximg.net/api/v6/LSExTNdA1vCOYNZ8eHZ6J0eyIcQ/AAAABSQ5oTooOkdPXjlCHSX5gh_hhAuAMueaP9fbAhyjQkQ317w-dQJbtLJFT98RYWaqYFqQWu2s0iF9Rig-RrgsfW7f2ERDmunMcaA.jpg?r=2bb"
+                alt="Romanchakam"
+                loading="lazy"
+              />
+              <span class="rank">5</span>
+            </article>
+
+            <article class="title-card">
+              <img
+                src="https://dnm.nflximg.net/api/v6/LSExTNdA1vCOYNZ8eHZ6J0eyIcQ/AAAABdfR7IY_cNO-SbDfx1B9ywFFG2AEbx8oQY4q4nsXasLv7NzD2ONwp7K5tbpST2oPx3kQSaDhAmBPqKDR5Wpv9p7Y6GgaU2JL3Pg.jpg?r=5df"
+                alt="Demon Slayer Infinity Castle"
+                loading="lazy"
+              />
+              <span class="rank">6</span>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ENJOY ON TV -->
+    <section class="first">
+      <div class="feature-text">
+        <h2>Enjoy on your TV</h2>
+        <p>
+          Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
+          players and more.
+        </p>
+      </div>
+
+      <div class="secImg">
+        <img
+          src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
+          alt="Television showing Netflix"
+        />
+
+        <video
+          src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v"
+          autoplay
+          loop
+          muted
+          playsinline
+        ></video>
+      </div>
+    </section>
+
+    <!-- DOWNLOAD SHOWS -->
+    <section class="first second">
+      <div class="secImg">
+        <img
+          src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"
+          alt="Mobile phone displaying a downloadable show"
+        />
+      </div>
+
+      <div class="feature-text">
+        <h2>Download your shows to watch offline</h2>
+        <p>Save your favourites easily and always have something to watch.</p>
+      </div>
+    </section>
+
+    <!-- WATCH EVERYWHERE -->
+    <section class="first third">
+      <div class="feature-text">
+        <h2>Watch everywhere</h2>
+        <p>
+          Stream unlimited movies and TV shows on your phone, tablet, laptop,
+          and TV.
+        </p>
+      </div>
+
+      <div class="secImg">
+        <img
+          src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
+          alt="Netflix on different devices"
+        />
+
+        <video
+          src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v"
+          autoplay
+          loop
+          muted
+          playsinline
+        ></video>
+      </div>
+    </section>
+
+    <!-- KIDS PROFILES -->
+    <section class="first second">
+      <div class="secImg">
+        <img
+          src="https://occ-0-2849-3646.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png?r=54"
+          alt="Illustration for children's profiles"
+        />
+      </div>
+
+      <div class="feature-text">
+        <h2>Create profiles for kids</h2>
+        <p>
+          Send children on adventures with their favourite characters in a space
+          made just for them—free with your membership.
+        </p>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" id="faq">
+      <h2>Frequently Asked Questions</h2>
+
+      <details class="faqbox">
+        <summary>What is Netflix?</summary>
+        <p>
+          Netflix is a streaming service with movies, series, documentaries and
+          more on internet-connected devices.
+        </p>
+      </details>
+
+      <details class="faqbox">
+        <summary>How much does Netflix cost?</summary>
+        <p>
+          Netflix offers different membership plans. Visit the official website
+          for current prices in India.
+        </p>
+      </details>
+
+      <details class="faqbox">
+        <summary>What can I watch on Netflix?</summary>
+        <p>
+          You can explore films, TV shows, documentaries, anime and other
+          entertainment.
+        </p>
+      </details>
+
+      <details class="faqbox">
+        <summary>Where can I watch?</summary>
+        <p>
+          Watch on compatible smart TVs, smartphones, tablets, computers and
+          streaming devices.
+        </p>
+      </details>
+
+      <details class="faqbox">
+        <summary>How do I cancel?</summary>
+        <p>
+          Manage your membership through your account on the official Netflix
+          website.
+        </p>
+      </details>
+
+      <details class="faqbox">
+        <summary>Is Netflix good for kids?</summary>
+        <p>
+          Netflix offers kids' profiles and parental controls to help families
+          manage viewing.
+        </p>
+      </details>
+    </section>
+
+    <!-- BOTTOM SIGNUP -->
+    <section class="bottom-signup">
+      <p>
+        Ready to watch? Enter your email to create or restart your membership.
+      </p>
+
+      <form
+        class="hero-buttons"
+        action="https://www.netflix.com/in/"
+        method="get"
+      >
+        <input
+          type="email"
+          name="email"
+          placeholder="Email address"
+          aria-label="Email address"
+          autocomplete="email"
+          required
+        />
+
+        <button type="submit" class="btn-red">
+          Get Started <span aria-hidden="true">›</span>
+        </button>
+      </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p class="questions">
+        Questions? Call
+        <a href="tel:0008009191694">000-800-919-1694</a>
+      </p>
+
+      <div class="footer">
+        <div class="footer-item">
+          <a href="https://help.netflix.com/">FAQ</a>
+          <a href="https://help.netflix.com/">Investor Relations</a>
+          <a href="https://help.netflix.com/">Ways to Watch</a>
+          <a href="https://help.netflix.com/">Terms of Use</a>
+        </div>
+
+        <div class="footer-item">
+          <a href="https://help.netflix.com/">Help Centre</a>
+          <a href="https://www.netflix.com/in/">Account</a>
+          <a href="https://help.netflix.com/">Speed Test</a>
+          <a href="https://help.netflix.com/">Legal Notices</a>
+        </div>
+
+        <div class="footer-item">
+          <a href="https://media.netflix.com/">Media Centre</a>
+          <a href="https://help.netflix.com/">Privacy</a>
+          <a href="https://help.netflix.com/">Cookie Preferences</a>
+          <a href="https://help.netflix.com/">Corporate Information</a>
+        </div>
+
+        <div class="footer-item">
+          <a href="https://jobs.netflix.com/">Jobs</a>
+          <a href="https://help.netflix.com/">Contact Us</a>
+          <a href="https://help.netflix.com/">Only on Netflix</a>
+          <a href="https://help.netflix.com/">Account</a>
+        </div>
+      </div>
+
+      <div class="footer-language">
+        <select class="language" aria-label="Footer language">
+          <option value="en">English</option>
+          <option value="hi">हिन्दी</option>
+        </select>
+      </div>
+
+      <p class="country">Netflix India</p>
+    </footer>
+  </body>
+</html>

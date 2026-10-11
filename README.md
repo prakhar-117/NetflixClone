@@ -91,7 +91,7 @@ This is an educational frontend project inspired by Netflix's website. It is **n
 
 - GitHub: [@prakhar-117](https://github.com/prakhar-117)
 - Repository: [NetflixClone](https://github.com/prakhar-117/NetflixClone)
-- LinkedIn: [Prakhar Varshney](https://www.linkedin.com/in/prakhar-varshney-17pv07).
+- LinkedIn: [Prakhar Varshney](https://www.linkedin.com/in/prakhar-varshney-17pv07)
 
 ---
 
